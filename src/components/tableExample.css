@@ -1,0 +1,27 @@
+.div-container {
+    display:flex;    
+}
+.div-header {
+    display:flex;
+    width: 300px;
+    border:solid 1px; 
+}
+
+.div-row {
+    display:flex;
+    width: 300px;
+    border:solid 1px; 
+}
+
+.div-row-selected {
+    display:flex;
+    width: 300px;
+    border:solid 1px; 
+    background-color: green;
+}
+
+.div-details {
+    width: 500px;
+    border:solid 1px;
+    background-color: green;
+}
