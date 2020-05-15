@@ -8,13 +8,15 @@ import TableExample from './components/TableExample';
 function App() {
   return (
     <div className="App">
+      
         <BookContextProvider>
           <NavBar />
           <BookList />
           <NewBookForm />
           <TableExample />
         </BookContextProvider>
-        
+        SECRET: {process.env.REACT_APP_NOT_SECRET_CODE}  <br />
+        NODE ENV: {process.env.NODE_ENV}
    </div>
   );
 }
